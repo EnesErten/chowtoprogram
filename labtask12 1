@@ -1,0 +1,115 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+//include libraries
+
+//defining new variable type
+//left and right pointers make
+//as a tree the variable type
+struct treenode{
+    struct treenode *left;
+    int data;
+    struct treenode *right;
+};
+//changinig names by typedef
+typedef struct treenode treenode;
+typedef treenode *treenodeptr;
+//functions prototype
+void insertnode(treenodeptr *a,int num);
+treenodeptr binarysearchtree(treenodeptr a,int num);
+void inorder(treenodeptr a);
+//insert an integer to tree
+void insertnode(treenodeptr *a,int num)
+{
+    if(*a==NULL)
+    {//if first elemnt
+        *a=(treenode *)malloc(sizeof(treenode));
+//dynamic memory
+        if(*a!=NULL)
+        {
+            (*a)->data=num;
+            (*a)->right=NULL;
+            (*a)->left=NULL;
+        }//assign num and NULLs
+
+        else
+            printf("No memory available!\n");
+    }
+
+    else
+    {//if is not first elemnt
+        //check num is big or data
+        if(num<(*a)->data)
+            insertnode(&((*a)->left),num);
+            //recursievly call look for the left side of tree
+        else
+        {
+            if(num>(*a)->data)
+                insertnode(&((*a)->right),num);
+                //recursievly call look for the right side of tree
+            else
+                printf("dup\n");
+        }//if same num is assign to tree
+    }
+}
+//this function is searching
+//a num is exist in tree or not
+treenodeptr binarysearchtree(treenodeptr a,int num)
+{
+    if(a==NULL)
+        return NULL;
+//if not exist return NULL
+    else if(a->data==num)
+        return a;
+//if exist return tree pointer(which keeps node &)
+    else if(num<a->data)
+        binarysearchtree(a->left,num);
+//recursievly call searching on left side num<a->data
+    else if(num>a->data)
+        binarysearchtree(a->right,num);
+}
+//print tree to respect to the their
+//ascending order
+void inorder(treenodeptr a)
+{
+    if(a!=NULL)
+    {
+        inorder(a->left);//recursievly call
+        printf("%3d",a->data);//display data
+        inorder(a->right);//recursievly call
+    }
+}
+
+main()
+{
+    int n,i,a,l;
+    treenodeptr aptr=NULL,bptr;
+
+    printf("Enter how many number you want to enter to tree:");
+    scanf("%d",&n);
+//take data from stdin to loop
+
+    for(i=0;i<n;i++)
+    {//for loop
+        printf("Enter number:");
+        scanf("%d",&a);
+        insertnode(&aptr,a);
+        //take data from stdin to assign
+        //assign to the tree
+    }
+
+    printf("The values being inserted in the tree are:\n");
+    inorder(aptr);
+//print tree to respect ascending order
+    printf("\nEnter a key value to be searched:");
+    scanf("%d",&l);
+//take data from stdin to search a key
+    bptr=binarysearchtree(aptr,l);
+//send key and pointer
+    if(bptr==NULL)
+        printf("%d is not found in the binary tree!\n",l);
+//if pointer is equal to NULL means key is not exist in tree
+    else
+        printf("%d is found in the binary tree node address %p",bptr->data,&(bptr->data));
+//if pointer different from NULL means key is exist in tree
+}
