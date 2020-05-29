@@ -1,0 +1,136 @@
+1   Jacob                Wilson               Edirne               2000502988   1  1  Grade:99 	Letter Grade:AA
+2   Noah                 Morton               Kars                 2000502043   1  2  Grade:99 	Letter Grade:AA
+3   George               Smith                Urfa                 2000502255   1  6  Grade:97 	Letter Grade:AA
+4   Charlie              Roberts              Istanbul             2000502950   1  1  Grade:95 	Letter Grade:AA
+5   Bethany              Thomas               New York             2000502557   1  2  Grade:94 	Letter Grade:AA
+6   Oscar                Wilson               Paris                2000502838   1  1  Grade:94 	Letter Grade:AA
+7   Isla                 Martin               New York             2000502461   1  2  Grade:93 	Letter Grade:AA
+8   Oscar                Li                   Trabzon              2000502866   1  5  Grade:92 	Letter Grade:AA
+9   Linda                Roberts              Adana                2000502094   1  3  Grade:92 	Letter Grade:AA
+10  Jacob                Li                   Seattle              2000502609   1  3  Grade:91 	Letter Grade:AA
+11  Daniel               Lam                  Detroit              2000502198   1  3  Grade:90 	Letter Grade:AA
+12  William              Anderson             Adana                2000502060   1  1  Grade:90 	Letter Grade:AA
+13  Daniel               Brown                Kars                 2000502568   1  6  Grade:90 	Letter Grade:AA
+14  Bethany              Martin               Seattle              2000502786   1  3  Grade:89 	Letter Grade:BA
+15  Ava                  Rodriguez            Edirne               2000502116   1  3  Grade:89 	Letter Grade:BA
+16  Charlie              Wang                 Urfa                 2000502940   1  5  Grade:88 	Letter Grade:BA
+17  Thomas               Lam                  Trabzon              2000502356   1  1  Grade:87 	Letter Grade:BA
+18  Thomas               Taylor               Edirne               2000502520   1  3  Grade:86 	Letter Grade:BA
+19  Olivia               Williams             Michigan             2000502909   1  6  Grade:86 	Letter Grade:BA
+20  Thomas               Smith                Los Angeles          2000502442   1  1  Grade:84 	Letter Grade:BB
+21  Linda                Brown                New York             2000502538   1  1  Grade:83 	Letter Grade:BB
+22  Bethany              Williams             Paris                2000502583   1  4  Grade:83 	Letter Grade:BB
+23  Isabella             Rodriguez            Trabzon              2000502871   1  4  Grade:82 	Letter Grade:BB
+24  Lauren               Johnson              Edirne               2000502052   1  4  Grade:80 	Letter Grade:BB
+25  Ava                  Wilson               Edirne               2000502421   1  2  Grade:79 	Letter Grade:CB
+26  Ethan                Anderson             Kars                 2000502679   1  1  Grade:78 	Letter Grade:CB
+27  Daniel               Byrne                Aydin                2000502562   1  3  Grade:77 	Letter Grade:CB
+28  George               Jones                Antalya              2000502701   1  5  Grade:77 	Letter Grade:CB
+29  Amelia               Smith                New York             2000502699   1  3  Grade:77 	Letter Grade:CB
+30  Sophie               Wilson               Izmir                2000502300   1  2  Grade:76 	Letter Grade:CB
+31  Noah                 Gelbero              Ankara               2000502780   1  1  Grade:75 	Letter Grade:CB
+32  Oscar                Johnson              Oklahoma             2000502058   1  3  Grade:73 	Letter Grade:CC
+33  Jessica              Walsh                Adana                2000502960   1  2  Grade:73 	Letter Grade:CC
+34  William              Murphy               Aydin                2000502302   1  6  Grade:72 	Letter Grade:CC
+35  Isabella             White                Oklahoma             2000502492   1  2  Grade:72 	Letter Grade:CC
+36  Isla                 Johnson              Paris                2000502461   1  6  Grade:69 	Letter Grade:DC
+37  Jack                 Morton               Trabzon              2000502873   1  1  Grade:69 	Letter Grade:DC
+38  Isabella             Martin               Aydin                2000502040   1  2  Grade:69 	Letter Grade:DC
+39  Sophie               Thomas               Antalya              2000502698   1  2  Grade:69 	Letter Grade:DC
+40  Daniel               Wilson               Istanbul             2000502172   1  1  Grade:67 	Letter Grade:DC
+41  Jacob                Wilson               Aydin                2000502731   1  2  Grade:67 	Letter Grade:DC
+42  Linda                Walsh                Los Angeles          2000502050   1  3  Grade:66 	Letter Grade:DC
+43  Olivia               Morton               Edirne               2000502243   1  5  Grade:64 	Letter Grade:DD
+44  James                Wilson               Oklahoma             2000502192   1  3  Grade:64 	Letter Grade:DD
+45  James                Walsh                New York             2000502148   1  5  Grade:63 	Letter Grade:DD
+46  Olivia               Garcia               Ankara               2000502305   1  6  Grade:63 	Letter Grade:DD
+47  Emily                Walsh                Aydin                2000502184   1  4  Grade:62 	Letter Grade:DD
+48  Ethan                Thomas               Los Angeles          2000502249   1  2  Grade:62 	Letter Grade:DD
+49  Lauren               Thomas               Paris                2000502630   1  3  Grade:61 	Letter Grade:DD
+50  Emma                 Gelbero              Aydin                2000502012   1  6  Grade:61 	Letter Grade:DD
+51  William              Garcia               Paris                2000502326   1  3  Grade:61 	Letter Grade:DD
+52  Isla                 Garcia               London               2000502727   1  3  Grade:60 	Letter Grade:DD
+53  Lily                 Davis                Paris                2000502705   1  1  Grade:60 	Letter Grade:DD
+54  Oliver               Brown                Antalya              2000502439   1  4  Grade:59 	Letter Grade:FD
+55  George               White                New York             2000502173   1  6  Grade:59 	Letter Grade:FD
+56  Isla                 Thomas               Los Angeles          2000502617   1  3  Grade:58 	Letter Grade:FD
+57  Jessica              Wilson               Antalya              2000502216   1  6  Grade:57 	Letter Grade:FD
+58  James                Lam                  Antalya              2000502298   1  6  Grade:57 	Letter Grade:FD
+59  Oscar                Byrne                Michigan             2000502731   1  1  Grade:56 	Letter Grade:FD
+60  Bethany              Smith                Antalya              2000502016   1  5  Grade:55 	Letter Grade:FD
+61  Olivia               Li                   Aydin                2000502569   1  5  Grade:54 	Letter Grade:FD
+62  Jessica              Wang                 Michigan             2000502528   1  2  Grade:54 	Letter Grade:FD
+63  William              Li                   Aydin                2000502648   1  2  Grade:52 	Letter Grade:FD
+64  Oliver               Davies               Antalya              2000502050   1  1  Grade:52 	Letter Grade:FD
+65  Linda                Lam                  Oklahoma             2000502224   1  4  Grade:51 	Letter Grade:FD
+66  Emily                Walsh                Istanbul             2000502947   1  5  Grade:51 	Letter Grade:FD
+67  William              Walsh                Los Angeles          2000502834   1  2  Grade:51 	Letter Grade:FD
+68  Jessica              Thomas               Paris                2000502409   1  4  Grade:49 	Letter Grade:FF
+69  Emma                 Evans                Detroit              2000502434   1  1  Grade:48 	Letter Grade:FF
+70  Jessica              Thomas               Urfa                 2000502076   1  6  Grade:48 	Letter Grade:FF
+71  Ava                  Jones                Antalya              2000502473   1  5  Grade:48 	Letter Grade:FF
+72  Harry                Roberts              Seattle              2000502300   1  2  Grade:46 	Letter Grade:FF
+73  Isabella             White                Ankara               2000502628   1  3  Grade:46 	Letter Grade:FF
+74  Lauren               Taylor               Los Angeles          2000502598   1  5  Grade:45 	Letter Grade:FF
+75  Bethany              Martin               Los Angeles          2000502225   1  2  Grade:45 	Letter Grade:FF
+76  Ethan                Murphy               Istanbul             2000502027   1  3  Grade:42 	Letter Grade:FF
+77  Oscar                Lam                  Istanbul             2000502108   1  5  Grade:42 	Letter Grade:FF
+78  Ava                  Byrne                Adana                2000502602   1  4  Grade:41 	Letter Grade:FF
+79  Ethan                Li                   Paris                2000502133   1  4  Grade:40 	Letter Grade:FF
+80  Jessica              Gelbero              Lousville            2000502677   1  3  Grade:40 	Letter Grade:FF
+81  Bethany              Garcia               Izmir                2000502852   1  2  Grade:39 	Letter Grade:FF
+82  Harry                Li                   New York             2000502162   1  1  Grade:39 	Letter Grade:FF
+83  Harry                Davis                Paris                2000502152   1  2  Grade:38 	Letter Grade:FF
+84  Isabella             Rodriguez            Izmir                2000502659   1  1  Grade:37 	Letter Grade:FF
+85  Harry                Lam                  Seattle              2000502180   1  5  Grade:37 	Letter Grade:FF
+86  Tracy                Smith                Aydin                2000502849   1  2  Grade:37 	Letter Grade:FF
+87  George               Gelbero              Istanbul             2000502108   1  2  Grade:37 	Letter Grade:FF
+88  Noah                 Smith                Aydin                2000502812   1  4  Grade:35 	Letter Grade:FF
+89  Thomas               Davies               Paris                2000502439   1  4  Grade:34 	Letter Grade:FF
+90  Amelia               Isla                 Seattle              2000502190   1  6  Grade:31 	Letter Grade:FF
+91  Emily                Walsh                Oklahoma             2000502725   1  3  Grade:31 	Letter Grade:FF
+92  Isla                 Isla                 Oklahoma             2000502137   1  3  Grade:27 	Letter Grade:FF
+93  Jacob                Jones                Oklahoma             2000502163   1  2  Grade:26 	Letter Grade:FF
+94  Bethany              Isla                 Antalya              2000502919   1  4  Grade:25 	Letter Grade:FF
+95  Isabella             Morton               Istanbul             2000502773   1  3  Grade:25 	Letter Grade:FF
+96  Tracy                Smith                Antalya              2000502865   1  4  Grade:24 	Letter Grade:FF
+97  Daniel               Gelbero              Urfa                 2000502420   1  4  Grade:23 	Letter Grade:FF
+98  Liam                 Gelbero              Edirne               2000502082   1  5  Grade:22 	Letter Grade:FF
+99  Tracy                Rodriguez            Trabzon              2000502752   1  1  Grade:20 	Letter Grade:FF
+100 Ava                  Byrne                Istanbul             2000502309   1  1  Grade:20 	Letter Grade:FF
+101 Oliver               Thomas               Kars                 2000502392   1  4  Grade:20 	Letter Grade:FF
+102 Amelia               Isla                 Ankara               2000502715   1  4  Grade:19 	Letter Grade:FF
+103 Ava                  Smith                Urfa                 2000502303   1  5  Grade:18 	Letter Grade:FF
+104 Olivia               Gelbero              Adana                2000502194   1  4  Grade:18 	Letter Grade:FF
+105 Harry                Anderson             Trabzon              2000502217   1  5  Grade:18 	Letter Grade:FF
+106 Jack                 Gelbero              New York             2000502683   1  1  Grade:17 	Letter Grade:FF
+107 Oscar                Isla                 Adana                2000502943   1  5  Grade:17 	Letter Grade:FF
+108 Lily                 Wilson               Edirne               2000502404   1  6  Grade:16 	Letter Grade:FF
+109 Oliver               Wilson               Izmir                2000502696   1  3  Grade:16 	Letter Grade:FF
+110 Tracy                Williams             Paris                2000502774   1  5  Grade:16 	Letter Grade:FF
+111 Bethany              Jones                Lousville            2000502577   1  2  Grade:15 	Letter Grade:FF
+112 Daniel               Wilson               Lousville            2000502495   1  6  Grade:15 	Letter Grade:FF
+113 Charlie              Gelbero              Seattle              2000502087   1  4  Grade:14 	Letter Grade:FF
+114 Thomas               Wilson               Aydin                2000502730   1  2  Grade:13 	Letter Grade:FF
+115 Ethan                Anderson             Los Angeles          2000502050   1  1  Grade:11 	Letter Grade:FF
+116 Isabella             Isla                 London               2000502941   1  2  Grade:11 	Letter Grade:FF
+117 Jacob                Roberts              Aydin                2000502540   1  5  Grade:11 	Letter Grade:FF
+118 Noah                 Wang                 Michigan             2000502005   1  5  Grade:11 	Letter Grade:FF
+119 Jacob                Roberts              Oklahoma             2000502618   1  1  Grade:11 	Letter Grade:FF
+120 Ethan                Walsh                Adana                2000502470   1  6  Grade:10 	Letter Grade:FF
+121 Noah                 Byrne                Aydin                2000502251   1  6  Grade:10 	Letter Grade:FF
+122 Bethany              White                London               2000502749   1  4  Grade:10 	Letter Grade:FF
+123 Amelia               Thomas               Seattle              2000502999   1  6  Grade:7 	Letter Grade:FF
+124 Liam                 Taylor               Michigan             2000502633   1  3  Grade:6 	Letter Grade:FF
+125 Isla                 Roberts              Kars                 2000502922   1  6  Grade:6 	Letter Grade:FF
+126 Thomas               Evans                Kars                 2000502527   1  5  Grade:5 	Letter Grade:FF
+127 Isla                 Li                   Lousville            2000502961   1  3  Grade:5 	Letter Grade:FF
+128 Isabella             Smith                Kars                 2000502966   1  3  Grade:4 	Letter Grade:FF
+129 Liam                 Walsh                Adana                2000502572   1  5  Grade:4 	Letter Grade:FF
+130 Emma                 Johnson              New York             2000502195   1  2  Grade:4 	Letter Grade:FF
+131 Isabella             Rodriguez            Michigan             2000502102   1  1  Grade:3 	Letter Grade:FF
+132 Lily                 Wilson               Seattle              2000502054   1  2  Grade:3 	Letter Grade:FF
+133 Jessica              Smith                Urfa                 2000502585   1  2  Grade:2 	Letter Grade:FF
+134 Thomas               Brown                Adana                2000502108   1  2  Grade:1 	Letter Grade:FF
+135 Charlie              Johnson              New York             2000502326   1  4  Grade:1 	Letter Grade:FF
+136 William              Thomas               Adana                2000502879   1  2  Grade:1 	Letter Grade:FF
