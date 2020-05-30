@@ -371,10 +371,10 @@ void display_and_save_statistics(char *file_name,Statistics arr1[], int num_of_s
 		}
 		//end of thefor
 		
-	    printf("\n%-s%-d\t%-s%-d\t %-s%-d \t%s%.2lf\n","All students taking the course : Number of students= ",num_of_stu,"Maximum grade= ",max1,"Minimum grade= ",min1,"Average grade= ",avrg);
+	    printf("\n%-s%-d\t %-s%-d\t %-s%-d \t%s%.2lf\n","All students taking the course : Number of students= ",num_of_stu,"Maximum grade= ",max1,"Minimum grade= ",min1,"Average grade= ",avrg);
 		//display couse statistics
 		
-		fprintf(fptr,"\n%-s%-d\t%-s%-d\t %-s%-d\t %s%.2lf\n","All students taking the course : Number of students= ",num_of_stu,"Maximum grade= ",max1,"Minimum grade= ",min1,"Average grade= ",avrg);
+		fprintf(fptr,"\n%-s%-d\t %-s%-d\t %-s%-d\t %s%.2lf\n","All students taking the course : Number of students= ",num_of_stu,"Maximum grade= ",max1,"Minimum grade= ",min1,"Average grade= ",avrg);
 		//write the statiscis to the file.
 		
 		fclose(fptr);
