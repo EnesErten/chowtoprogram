@@ -1,4 +1,3 @@
 # chowtoprogram
-# the homeworks of the
-# Algorithms&Programming lectures lab&home tasks 
-# and also midterm project
+this is including the cpp files and the output .txt files
+one is the midterm project
