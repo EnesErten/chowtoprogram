@@ -394,7 +394,8 @@ void sort_and_save_data(char *file_name, Students arr[], int num_of_stu)
 {
 	//file pointer
 	FILE *fptr;
-	int i,j,temp,k,l;
+	int i,j,k,l;
+	Students temp={"","","",0,0,0,0};
 	//declarations
 	
 	//buble sort algorithm
@@ -406,11 +407,11 @@ void sort_and_save_data(char *file_name, Students arr[], int num_of_stu)
 			{
 			//if j th term is smaller than j+1th term
 			    //swap operation
-				temp=arr[j].grade;
+				temp=arr[j];
 				//hold arr[j].grade in temp
-				arr[j].grade=arr[j+1].grade;
+				arr[j]=arr[j+1];
 				//change arr[j]
-				arr[j+1].grade=temp;
+				arr[j+1]=temp;
 				//change arr[j+1]
 			}
 			//end of if
@@ -432,39 +433,39 @@ void sort_and_save_data(char *file_name, Students arr[], int num_of_stu)
 		{
 		//for loop loop number of students time
 				if(arr[k].grade>=90)
-				    fprintf(fptr,"%-3d %-20s %-20s %-20s %-12lli %-2d %-2d %-6s%-d \t%s%s\n",k+1,arr[k].Name,arr[k].Surname,arr[k].address,arr[k].No,arr[k].st_class,arr[k].Section,"Grade:",arr[k].grade,"Letter Grade:","AA");
+				    fprintf(fptr,"%-3d %-20s %-20s %-20s %-12lli %-2d %-2d %-6s%-d \t%s%s\n",k+1,arr[k].Name,arr[k].Surname,arr[k].address,arr[k].No,arr[k].st_class,arr[k].Section,"Grade:",arr[k].grade,"LETTER GRADE:","AA");
 			    //if grade is AA THAT means grade>=90 write file the informations
 			    
 				else if(arr[k].grade<90 && arr[k].grade>=85)
-			        fprintf(fptr,"%-3d %-20s %-20s %-20s %-12lli %-2d %-2d %-6s%-d \t%s%s\n",k+1,arr[k].Name,arr[k].Surname,arr[k].address,arr[k].No,arr[k].st_class,arr[k].Section,"Grade:",arr[k].grade,"Letter Grade:","BA");
+			        fprintf(fptr,"%-3d %-20s %-20s %-20s %-12lli %-2d %-2d %-6s%-d \t%s%s\n",k+1,arr[k].Name,arr[k].Surname,arr[k].address,arr[k].No,arr[k].st_class,arr[k].Section,"Grade:",arr[k].grade,"LETTER GRADE:","BA");
 			    //if grade is BA THAT means 90>grade>=85 write file informations
 			    
 			    else if(arr[k].grade<85 && arr[k].grade>=80)
-			        fprintf(fptr,"%-3d %-20s %-20s %-20s %-12lli %-2d %-2d %-6s%-d \t%s%s\n",k+1,arr[k].Name,arr[k].Surname,arr[k].address,arr[k].No,arr[k].st_class,arr[k].Section,"Grade:",arr[k].grade,"Letter Grade:","BB");  
+			        fprintf(fptr,"%-3d %-20s %-20s %-20s %-12lli %-2d %-2d %-6s%-d \t%s%s\n",k+1,arr[k].Name,arr[k].Surname,arr[k].address,arr[k].No,arr[k].st_class,arr[k].Section,"Grade:",arr[k].grade,"LETTER GRADE:","BB");  
 				//if grade is BB THAT means 85>grade>=80 write file informations
 			    
 				else if(arr[k].grade<80 && arr[k].grade>=75)
-			        fprintf(fptr,"%-3d %-20s %-20s %-20s %-12lli %-2d %-2d %-6s%-d \t%s%s\n",k+1,arr[k].Name,arr[k].Surname,arr[k].address,arr[k].No,arr[k].st_class,arr[k].Section,"Grade:",arr[k].grade,"Letter Grade:","CB");
+			        fprintf(fptr,"%-3d %-20s %-20s %-20s %-12lli %-2d %-2d %-6s%-d \t%s%s\n",k+1,arr[k].Name,arr[k].Surname,arr[k].address,arr[k].No,arr[k].st_class,arr[k].Section,"Grade:",arr[k].grade,"LETTER GRADE:","CB");
 			    //if grade is 	CB THAT means 85>grade>=80 write file informations
 			    
 			    else if(arr[k].grade<75 && arr[k].grade>=70)
-			        fprintf(fptr,"%-3d %-20s %-20s %-20s %-12lli %-2d %-2d %-6s%-d \t%s%s\n",k+1,arr[k].Name,arr[k].Surname,arr[k].address,arr[k].No,arr[k].st_class,arr[k].Section,"Grade:",arr[k].grade,"Letter Grade:","CC");
+			        fprintf(fptr,"%-3d %-20s %-20s %-20s %-12lli %-2d %-2d %-6s%-d \t%s%s\n",k+1,arr[k].Name,arr[k].Surname,arr[k].address,arr[k].No,arr[k].st_class,arr[k].Section,"Grade:",arr[k].grade,"LETTER GRADE:","CC");
 			    //if grade is CC THAT means 75>grade>=70 write file informations
 			    
 			    else if(arr[k].grade<70 && arr[k].grade>=65)
-			        fprintf(fptr,"%-3d %-20s %-20s %-20s %-12lli %-2d %-2d %-6s%-d \t%s%s\n",k+1,arr[k].Name,arr[k].Surname,arr[k].address,arr[k].No,arr[k].st_class,arr[k].Section,"Grade:",arr[k].grade,"Letter Grade:","DC");
+			        fprintf(fptr,"%-3d %-20s %-20s %-20s %-12lli %-2d %-2d %-6s%-d \t%s%s\n",k+1,arr[k].Name,arr[k].Surname,arr[k].address,arr[k].No,arr[k].st_class,arr[k].Section,"Grade:",arr[k].grade,"LETTER GRADE:","DC");
 			    //if grade is DC THAT means 70>grade>=65 write file informations
 				    
 			    else if(arr[k].grade<65 && arr[k].grade>=60)
-			        fprintf(fptr,"%-3d %-20s %-20s %-20s %-12lli %-2d %-2d %-6s%-d \t%s%s\n",k+1,arr[k].Name,arr[k].Surname,arr[k].address,arr[k].No,arr[k].st_class,arr[k].Section,"Grade:",arr[k].grade,"Letter Grade:","DD");
+			        fprintf(fptr,"%-3d %-20s %-20s %-20s %-12lli %-2d %-2d %-6s%-d \t%s%s\n",k+1,arr[k].Name,arr[k].Surname,arr[k].address,arr[k].No,arr[k].st_class,arr[k].Section,"Grade:",arr[k].grade,"LETTER GRADE:","DD");
 			    //if grade is DD THAT means 65>grade>=60 write file informations
 				    
 			    else if(arr[k].grade<60 && arr[k].grade>=50)
-			        fprintf(fptr,"%-3d %-20s %-20s %-20s %-12lli %-2d %-2d %-6s%-d \t%s%s\n",k+1,arr[k].Name,arr[k].Surname,arr[k].address,arr[k].No,arr[k].st_class,arr[k].Section,"Grade:",arr[k].grade,"Letter Grade:","FD");
+			        fprintf(fptr,"%-3d %-20s %-20s %-20s %-12lli %-2d %-2d %-6s%-d \t%s%s\n",k+1,arr[k].Name,arr[k].Surname,arr[k].address,arr[k].No,arr[k].st_class,arr[k].Section,"Grade:",arr[k].grade,"LETTER GRADE:","FD");
 			    //if grade is FD THAT means 60>grade>=50 write file informations
 				    
 			    else
-			        fprintf(fptr,"%-3d %-20s %-20s %-20s %-12lli %-2d %-2d %-6s%-d \t%s%s\n",k+1,arr[k].Name,arr[k].Surname,arr[k].address,arr[k].No,arr[k].st_class,arr[k].Section,"Grade:",arr[k].grade,"Letter Grade:","FF");
+			        fprintf(fptr,"%-3d %-20s %-20s %-20s %-12lli %-2d %-2d %-6s%-d \t%s%s\n",k+1,arr[k].Name,arr[k].Surname,arr[k].address,arr[k].No,arr[k].st_class,arr[k].Section,"Grade:",arr[k].grade,"LETTER GRADE:","FF");
 			    //if grade is FF THAT means 50>grade write file informations    
 		}
 		//end for       
@@ -486,7 +487,7 @@ int main()
 	Statistics arr1[6]={0,0,0,0.0};
 	//statistics need 6 elements due to the 6 section
 	//assign 0 0 0 0.0
-	char name[20]="",bin[20]=".bin",txt1[20]="_STATISTICS.txt",txt2[20]="_SORTED.txt",file_name[30]="";
+	char name[20]="",bin[20]=".bin",txt1[20]="_STATISTICS.txt",txt2[20]="_SORTED.txt",file_name[40]="";
 	int stu_num=0;
 	double average=0.0;
 	
@@ -513,7 +514,7 @@ int main()
 	average=calculate_statistics(arr,200,arr1);
 	//call function calculate statistics assign to the average grade to average
 	
-	file_name[0]=NULL;
+	file_name[0]='\0';
 	//assign file_name NULL make it empty
 	strcpy(file_name,name);
 	//copy the name to the file_name
@@ -525,7 +526,7 @@ int main()
 	display_and_save_statistics(file_name,arr1,stu_num,average);
 	//call function display_and_save_statistics
 	
-	file_name[0]=NULL;
+	file_name[0]='\0';
 	//assign file_name NULL make it empty
 	strcpy(file_name,name);
 	//copy name to file_name
