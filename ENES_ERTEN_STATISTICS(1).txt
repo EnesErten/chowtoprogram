@@ -1,0 +1,8 @@
+Section 1 : Number of students= 23	 Maximum= 95	 Minimum= 5	 Average= 49.48
+Section 2 : Number of students= 29	 Maximum= 97	 Minimum= 6	 Average= 51.66
+Section 3 : Number of students= 25	 Maximum= 94	 Minimum= 1	 Average= 44.24
+Section 4 : Number of students= 20	 Maximum= 99	 Minimum= 1	 Average= 45.10
+Section 5 : Number of students= 21	 Maximum= 94	 Minimum= 3	 Average= 50.86
+Section 6 : Number of students= 18	 Maximum= 87	 Minimum= 1	 Average= 41.61
+
+All students taking the course : Number of students= 136	 Maximum grade= 99	 Minimum grade= 1	 Average grade= 47.51
